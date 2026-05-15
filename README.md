@@ -1,21 +1,8 @@
 # project-review-portal
-A web-based Project Review Portal for managing, tracking, and reviewing student projects efficiently.
 # 🎓 College Project Submission & Review Portal
 
 A web-based system for managing college project submissions, faculty reviews, and admin oversight — built with **PHP**, **MySQL**, and **HTML/CSS/JS**.
 
----
-
-## 📋 Table of Contents
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Default Credentials](#default-credentials)
-- [Screenshots](#screenshots)
-
----
 
 ## ✨ Features
 
