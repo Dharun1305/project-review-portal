@@ -1,0 +1,65 @@
+# ============================================================
+#  requirements.txt
+#  College Project Submission & Review Portal
+#  System & Software Requirements
+# ============================================================
+
+
+# ── Server Environment ───────────────────────────────────────
+XAMPP >= 8.0.0          # Recommended bundle (Apache + MySQL + PHP)
+  Apache         >= 2.4
+  MySQL          >= 5.7   # or MariaDB >= 10.4
+  PHP            >= 7.4   # PHP 8.x preferred
+
+
+# ── PHP Extensions (must be enabled in php.ini) ─────────────
+extension=pdo            # PDO core (usually enabled by default)
+extension=pdo_mysql      # PDO MySQL driver
+extension=fileinfo       # File type detection
+extension=mbstring       # Multi-byte string support
+extension=openssl        # Required for password_hash (bcrypt)
+
+
+# ── PHP Configuration (php.ini) ─────────────────────────────
+file_uploads       = On
+upload_max_filesize = 10M
+post_max_size       = 12M
+max_execution_time  = 60
+session.gc_maxlifetime = 1440
+
+
+# ── Browser (Client-Side) ────────────────────────────────────
+Google Chrome      >= 90
+Mozilla Firefox    >= 88
+Microsoft Edge     >= 90
+# (any modern browser with ES6 and CSS custom property support)
+
+
+# ── Operating System ─────────────────────────────────────────
+Windows 7 / 8 / 10 / 11   # Required for .bat scripts (setup.bat / run.bat)
+# Linux/macOS users can run the SQL import manually via terminal
+
+
+# ── Disk Space ───────────────────────────────────────────────
+Application files  : ~200 KB
+Database           : ~1 MB (initial)
+uploads/ folder    : variable (depends on student submissions)
+Recommended free   : >= 500 MB
+
+
+# ── Network ──────────────────────────────────────────────────
+localhost (127.0.0.1)     # No internet required — runs fully offline
+Port 80                   # Apache HTTP (default)
+Port 3306                 # MySQL (default)
+
+
+# ── Optional Tools ───────────────────────────────────────────
+phpMyAdmin      # Bundled with XAMPP — for manual DB management
+VS Code         # Recommended code editor
+Git             # For version control (optional)
+
+
+# ── No External Dependencies ─────────────────────────────────
+# This project uses NO npm, composer, or pip packages.
+# All PHP is vanilla; CSS is hand-written (no Tailwind/Bootstrap JS).
+# Google Fonts (Inter) loaded via CDN — requires internet for first load.

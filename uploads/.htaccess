@@ -1,0 +1,8 @@
+# Prevent direct directory listing in uploads folder
+Options -Indexes
+
+# Restrict PHP execution inside uploads
+<FilesMatch "\.php$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
