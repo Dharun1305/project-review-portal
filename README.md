@@ -1,7 +1,12 @@
+<<<<<<< HEAD
+=======
+# project-review-portal
+>>>>>>> 74b956d163f6acabe397acbde6366a03a8a43a72
 # 🎓 College Project Submission & Review Portal
 
 A web-based system for managing college project submissions, faculty reviews, and admin oversight — built with **PHP**, **MySQL**, and **HTML/CSS/JS**.
 
+<<<<<<< HEAD
 ---
 
 ## 📋 Table of Contents
@@ -14,6 +19,8 @@ A web-based system for managing college project submissions, faculty reviews, an
 - [Screenshots](#screenshots)
 
 ---
+=======
+>>>>>>> 74b956d163f6acabe397acbde6366a03a8a43a72
 
 ## ✨ Features
 
